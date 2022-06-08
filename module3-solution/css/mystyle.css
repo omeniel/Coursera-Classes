@@ -5,27 +5,65 @@ body {
 }
 #header-nav {
   background-color: #AA33C4;
-  border: 2px solid black;
+  border-top-color: #000;
+  border-bottom: 2.4px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
   border-radius: 0 0 5px 5px;
 }
+button.navbar-toggle.collapsed {
+  border: 2px solid #000;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #AA33C4;
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 1px #F6E2F2;
+  }
+.navbar-default .navbar-toggle:hover {
+    background-color: #F6E2F2;
+  }
+.navbar-default .navbar-toggle:active {
+  background-color: #AA33C4;
+}
+.navbar-default .navbar-toggle {
+    border-color: #000;
+    background-color: #AA33C4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
 .navbar-default .navbar-brand {
-    color: #000;
-    font-size: 2em;
-    font-weight: 900;
+  color: #000;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 10px;
 }
-.navbar-default .navbar-brand:hover {
-  color: black;
-}
-#nav.list {
-  margin-top: 10px;
+#collapsable-nav {
+  border-top: 2px solid #000;
 }
 #nav-list a{
   text-align: center;
   color: #000;
+  font-size: 1.6em;
+  font-weight: 900;
+}
+#nav-list a:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 1px #F6E2F2;
+}
+#nav-list a .iconify {
+  font-size: 1em;
 }
 #nav-list a:hover{
   color: #000;
   background-color: #F6E2F2;
+}
+#nav-list hr {
+  margin: 0;
+  border-color: #000;
+  border-width: 2px;
 }
 h1 {
   text-align: center;
@@ -36,13 +74,13 @@ div#main-content.container {
   padding: 0;
 }
 .col-xs-12 {
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 5px;
   background-color: #45E6E4;
   margin: 15px 0;
   position: relative;
   height: auto;
-  box-shadow: 10px 10px 30px black;
+  box-shadow: 10px 10px 30px #000;
 }
 h2 {
   text-align: center;
